@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage - English -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/en</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tivat-rent-scooter.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.tivat-rent-scooter.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.tivat-rent-scooter.com/he"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.tivat-rent-scooter.com/sr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tivat-rent-scooter.com/en"/>
+  </url>
+
+  <!-- Homepage - Russian -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/ru</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tivat-rent-scooter.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.tivat-rent-scooter.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.tivat-rent-scooter.com/he"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.tivat-rent-scooter.com/sr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tivat-rent-scooter.com/en"/>
+  </url>
+
+  <!-- Homepage - Hebrew -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/he</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tivat-rent-scooter.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.tivat-rent-scooter.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.tivat-rent-scooter.com/he"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.tivat-rent-scooter.com/sr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tivat-rent-scooter.com/en"/>
+  </url>
+
+  <!-- Homepage - Serbian -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/sr</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tivat-rent-scooter.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.tivat-rent-scooter.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.tivat-rent-scooter.com/he"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.tivat-rent-scooter.com/sr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tivat-rent-scooter.com/en"/>
+  </url>
+
+  <!-- Scooters Page -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/scooters</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Features Section -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/#features</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Scooter Pricing Page - English -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/en/scooterPricing</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tivat-rent-scooter.com/en/scooterPricing"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.tivat-rent-scooter.com/ru/scooterPricing"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.tivat-rent-scooter.com/he/scooterPricing"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.tivat-rent-scooter.com/sr/scooterPricing"/>
+  </url>
+
+  <!-- Contact Section - English -->
+  <url>
+    <loc>https://www.tivat-rent-scooter.com/en/#contact</loc>
+    <lastmod>2025-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tivat-rent-scooter.com/en/#contact"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.tivat-rent-scooter.com/ru/#contact"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.tivat-rent-scooter.com/he/#contact"/>
+    <xhtml:link rel="alternate" hreflang="sr" href="https://www.tivat-rent-scooter.com/sr/#contact"/>
+  </url>
+</urlset>

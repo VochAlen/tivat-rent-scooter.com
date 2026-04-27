@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.tivat-rent-scooter.com/sitemap.xml
+
+# Block crawling of admin areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/

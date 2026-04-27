@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/cpanel",
+      "destination": "https://server305.web-hosting.com:2083",
+      "permanent": true
+    },
+    {
+      "source": "/webmail",
+      "destination": "https://server305.web-hosting.com:2096",
+      "permanent": true
+    }
+  ]
+}
