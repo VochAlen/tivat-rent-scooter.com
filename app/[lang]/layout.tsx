@@ -1,7 +1,7 @@
-// app\[lang]\layout.tsx
+// app/[lang]/layout.tsx
 import { Metadata } from 'next';
 import Script from 'next/script';
-import NotificationBar from '@/components/NotificationBar'; // Import the NotificationBar component
+import NotificationBar from '@/components/NotificationBar';
 
 // Define your supported languages
 export const languages = ['en', 'ru', 'he', 'sr'] as const;
@@ -37,13 +37,7 @@ const seoContent = {
 
 // Validate language function
 async function validateLanguage(lang: string): Promise<Language> {
-  // Your validation logic here
   return languages.includes(lang as Language) ? lang as Language : 'en';
-}
-
-interface LayoutProps {
-  children: React.ReactNode;
-  params: { lang: Language };
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -160,6 +154,7 @@ export default async function LangLayout({ children, params }: { children: React
       <Script
         id="structured-data"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)
         }}

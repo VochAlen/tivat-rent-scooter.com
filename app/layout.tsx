@@ -97,6 +97,24 @@ export default function RootLayout({
             `,
           }}
         />
+
+        {/* === Google Ads konverzije (kampanja) — KORAK 1 === */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18240625119"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-ads-gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18240625119');
+            `,
+          }}
+        />
       </head>
       <body>
         <noscript>
@@ -121,6 +139,26 @@ export default function RootLayout({
           </LanguageProvider>
         </ThemeProvider>
         <Toaster position="top-right" />
+
+        {/* === Praćenje klikova na tel:/viber:/wa.me/mailto: — KORAK 2 === */}
+        <Script
+          id="conversion-click-tracker"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(){
+                var SEND={phone:'AW-18240625119/i-1ZCLjBob8cEN-z5_lD',viber:'AW-18240625119/SYTuCL3Mob8cEN-z5_lD',
+                whatsapp:'AW-18240625119/BWVMCMDMob8cEN-z5_lD',email:'AW-18240625119/6IrFCMPMob8cEN-z5_lD'};
+                function fire(l){if(typeof gtag==='function')gtag('event','conversion',{send_to:l,value:1.0,currency:'EUR'});}
+                function t(h){if(!h)return null;h=h.toLowerCase();if(h.indexOf('tel:')===0)return'phone';
+                if(h.indexOf('viber:')===0)return'viber';if(h.indexOf('wa.me')!==-1||h.indexOf('api.whatsapp.com')!==-1)return'whatsapp';
+                if(h.indexOf('mailto:')===0)return'email';return null;}
+                document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');
+                if(!a)return;var k=t(a.getAttribute('href'));if(k&&SEND[k])fire(SEND[k]);},true);
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
   );
