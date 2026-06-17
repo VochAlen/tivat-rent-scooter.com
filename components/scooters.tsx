@@ -26,7 +26,7 @@ const scootersData: ScooterData[] = [
     id: "classic-city",
     name: "VERA CRUZ 125cc/2025",
     // price: 35,
-    price: 45,
+    price: 40,
     image: "/scooters/scooter1.jpg",
     specs: {
       rating: 5.0,
@@ -40,7 +40,7 @@ const scootersData: ScooterData[] = [
     id: "classic-city2",
     name: "VERA CRUZ 125cc/2025",
     // price: 35,
-    price: 45,
+    price: 40,
     image: "/scooters/scooter2.jpg",
     specs: {
       rating: 5.0,
